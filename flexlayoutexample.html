@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+header{
+    background-color: bisque;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+li{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+li:hover{
+    background-color: black;
+    color: bisque;
+}
+main{
+    display: flex;
+
+}
+aside{
+    width: 25%;
+    background-color: blueviolet;
+}
+section{
+    width: 75%;
+background-color: blue;
+}
+.top{
+    height: 50vh;
+    background-color: red;
+}
+.bottom{
+    /* height: 50px; */
+    background-color: brown;
+    display: flex;
+}
+.left{
+    width: 50%;
+    background-color: aqua;
+}
+.right{
+    width: 50%;
+    background-color: orange;
+}
+    </style>
+</head>
+
+<body>
+/,<header>
+    <nav>
+        <li>HOME</li>
+    <li>ABOUT</li>
+    <li>GALLERY</li>
+    <li>BLOGS</li>
+    <li>CONTACT</li>
+    </nav>
+</header>    
+<main>
+    <aside>left sidebar</aside>
+    <section>
+        <div class="top">Top</div>
+        <div class="bottom">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery {
+            background-image: url(a0cb3885c44b8305ac89ba7ce98e8cd978bf3ebba6a151a00dbf2d528e98bf3b.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 40vh;
+            width: 100vh;
+            position: relative;
+        }
+        button {
+            padding: 5px;
+            border: none;
+            background-color: #e0d626aa;
+            cursor: pointer;
+        }
+        .btn {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="btn">
+            <button class="btni"><</button>
+            <button class="btnii">></button>
+        </div>
+    </div>
+</body>
+</html>

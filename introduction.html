@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:rgb(169, 169, 200);
+            background-color:green;
+        }
+        .myh1{
+            color:red;
+            background-color:lightpink;
+        }
+        #secondh1{
+            color:purple;
+            background-color:gold;
+        }
+        input[type='text']{
+            background-color:yellow;
+        }
+        input [required]{
+            background-color:beige;
+        }
+    </style>
+     <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <!--
+    Cascading Style Sheets (CSS)
+    -to apply the styles to html page
+    -structure:
+    selector{
+    attribute: value;
+    }
+    selector: to which CSS is being applied
+    attribute:property to be changed
+    value:    value of the attribute
+    
+    -selector types
+    element selector: element/tag name is used to play CSS
+    class selector:user defined class name is used
+    we use(.) dot preceding the class name while definig the selector
+    id selector:user defined ids are used
+    we use(#) hash preceding the id while defining the selector
+    priority:id >class> element
+
+    attribute selector
+    element[attribute]
+
+    CSS TYPES:
+    1. internal
+       css is written in same page in head section inside style tag is best for single page website
+       2. external
+       css is written in seperate page
+       saved with extension '.css'
+       imported in webpage using 'link' tab
+       no style keyword is required
+       best for multiple page website
+       internal and external have equal priority and
+3.inline css
+written using style attribute
+applied to single element only
+    -->
+    <h1 style="color:rgb(165, 165, 207);">INLINE CSS</h1>
+    <h1 class="myh1">HELLO KAUN</h1>
+    <h1 id="second1">TERA BAAP</h1>
+    <input type="text">
+    <input type="email">
+    <button submit>Button 1</button>
+    <button cancel>Button 2</button>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxmodel</title>
+    <style>
+        *{
+            margin= 0;
+        }
+        .demo{
+            width:200px;
+            height:200px;
+             /* margin:auto; */
+            background-color:aqua;
+            border-width:10px;
+            border-style:double;
+            /* 4 sides*/
+            /* margin:50px; */
+            /* top,bottom   left,right */
+            /* margin:50px 25px; */
+            /* top left,right    bottom*/
+            /* margin:10ps 25px 50px;*/
+            /* top right bottom left*/
+            /* margin: 5px 10px 25px 50px;*/
+
+            /* margin-top:25px;
+            margin-bottom:30px;
+            margin-left:40px;
+            margin-right:55px; */
+            color:yellow;
+            /* solid,dashed,dotted,groove,double,inset,outset*/
+             /* border-left:25px red dashed; */
+             border-left-style:solid;
+             border-right-color:yellow;
+             border-right-width:25px;
+
+             border-bottom:greenyellow 50px dotted;
+             border-top:30px dashed white;
+        
+            
+
+            margin-top:25px;
+            margin-bottom:30px;
+            margin-left:40px;
+            margin-right:55px;
+        }
+        .demo2{
+            width:200px;
+         height:200px;
+            /* margin:auto; */
+            background-color:grey;
+        }
+        .demo3{
+            height: 280px;
+        width: 200px;
+        margin: auto;
+        border: 5px solid gray;
+        text-align: justify;
+        /* 4 sides */
+        /* padding: 20px; */
+        /* top,bottom left,right */
+        /* padding: 20px 10px */
+        /* top  letf,right  bottom */
+        /* padding: 20px 25px 10px */
+        /* top right bottom left */
+        /* padding: 20px 25px 10px 30px; */
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 25px;
+
+        color: red;
+
+        /* box-shadow: x-distance y-distance color blur spread color*/
+        box-shadow: 0px 0px 10px 10px yellow,inset 50px 50px green, -50px 50px blue, 40px 40px yellow;
+
+        font-size:48px;
+        /* text-shadow: x-distance y-distance blur color */
+        text-shadow:  20px 20px 10px blue
+            
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="demo"></div>
+    <div class="demo2"></div>
+    <div class="demo3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nisi quas temporibus culpa sit quam quod neque tenetur, tempora dignissimos perspiciatis soluta ipsum aliquid facere delectus excepturi hic architecto? Magni!
+
+    </div>
+
+    
+    
+</body>
+</html>
